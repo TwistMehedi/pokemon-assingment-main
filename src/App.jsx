@@ -11,6 +11,7 @@ const App = () => {
      <NavBar />
       <Routes>
       <Route exact path='/' element={<Home />}/>
+      <Route path='/' element={<Home />}/>
       <Route path='favourite' element={<Favourite />}/>
       <Route path='pokemon/:name' element={<PokeMonDetails />}/>
      </Routes>
